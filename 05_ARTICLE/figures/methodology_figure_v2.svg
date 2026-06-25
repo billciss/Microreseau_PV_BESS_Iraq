@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1015" viewBox="0 0 680 1015" font-family="'Times New Roman', Times, serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="arrowfb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#993C1D" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="680" height="1015" fill="#ffffff"/>
+<text x="340" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F3864">Methodology: PV-BESS microgrid adapted to Iraq</text>
+<text x="40" y="58" font-size="13" fill="#0F6E56" font-weight="bold">Step 1. Real-data collection and validation</text>
+<rect x="40" y="66" width="600" height="150" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<rect x="58" y="90" width="275" height="108" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.7"/>
+<text x="196" y="114" text-anchor="middle" font-size="14" font-weight="bold" fill="#04342C">Solar resource</text>
+<text x="196" y="132" text-anchor="middle" font-size="12" fill="#085041">NASA POWER, 5 cities, 10 yr</text>
+<text x="196" y="149" text-anchor="middle" font-size="12" fill="#085041">Solargis Baghdad (validation)</text>
+<text x="196" y="166" text-anchor="middle" font-size="12" fill="#085041">GHI 5.0 to 5.6 kWh/m²/day</text>
+<text x="196" y="183" text-anchor="middle" font-size="12" fill="#085041">cross-checked &lt; 5% deviation</text>
+<rect x="347" y="90" width="275" height="108" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.7"/>
+<text x="484" y="114" text-anchor="middle" font-size="14" font-weight="bold" fill="#04342C">Load profiles (4 types)</text>
+<text x="484" y="132" text-anchor="middle" font-size="12" fill="#085041">Residential: Al-Bahrani 2021</text>
+<text x="484" y="149" text-anchor="middle" font-size="12" fill="#085041">Rural: NREL, AJEPES 2024</text>
+<text x="484" y="166" text-anchor="middle" font-size="12" fill="#085041">Industrial, business: Mendeley</text>
+<text x="484" y="183" text-anchor="middle" font-size="12" fill="#085041">plus SEWA (Gulf analogue)</text>
+<line x1="340" y1="216" x2="340" y2="240" stroke="#444" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="40" y="256" font-size="13" fill="#534AB7" font-weight="bold">Step 2. Scenario construction and hourly reconstruction</text>
+<rect x="40" y="264" width="600" height="128" rx="10" fill="#EDEBFA" stroke="#534AB7" stroke-width="0.7"/>
+<text x="340" y="284" text-anchor="middle" font-size="12.5" font-style="italic" fill="#3C3489">8760-hour profile per scenario, seasonal scaling (summer-dominant), day/step variability</text>
+<rect x="54" y="298" width="134" height="80" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.7"/>
+<text x="121" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#26215C">A. Industrial</text>
+<text x="121" y="340" text-anchor="middle" font-size="12" fill="#3C3489">Basra, ~500 kW</text>
+<rect x="200" y="298" width="134" height="80" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.7"/>
+<text x="267" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#26215C">B. Rural</text>
+<text x="267" y="340" text-anchor="middle" font-size="12" fill="#3C3489">North, ~50 kW</text>
+<rect x="346" y="298" width="134" height="80" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.7"/>
+<text x="413" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#26215C">C. Business</text>
+<text x="413" y="340" text-anchor="middle" font-size="12" fill="#3C3489">Baghdad, ~200 kW</text>
+<rect x="492" y="298" width="134" height="80" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.7"/>
+<text x="559" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#26215C">D. Residential</text>
+<text x="559" y="340" text-anchor="middle" font-size="12" fill="#3C3489">Baghdad, ~100 kW</text>
+<line x1="340" y1="392" x2="340" y2="416" stroke="#444" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="40" y="432" font-size="13" fill="#0C447C" font-weight="bold">Step 3. Techno-economic sizing (HOMER Pro)</text>
+<rect x="40" y="440" width="600" height="156" rx="10" fill="#E4EFFB" stroke="#185FA5" stroke-width="0.7"/>
+<text x="340" y="460" text-anchor="middle" font-size="12.5" font-style="italic" fill="#0C447C">Optimal PV, BESS and diesel sizing per scenario; IMER grid, Iraqi costs; grid-outage model</text>
+<rect x="58" y="474" width="179" height="104" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.7"/>
+<text x="147" y="498" text-anchor="middle" font-size="14" font-weight="bold" fill="#042C53">Inputs</text>
+<text x="147" y="516" text-anchor="middle" font-size="12" fill="#0C447C">Load, solar, costs</text>
+<text x="147" y="533" text-anchor="middle" font-size="12" fill="#0C447C">CAPEX 900/250 USD</text>
+<text x="147" y="550" text-anchor="middle" font-size="12" fill="#0C447C">outage model</text>
+<rect x="251" y="474" width="179" height="104" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.7"/>
+<text x="340" y="498" text-anchor="middle" font-size="14" font-weight="bold" fill="#042C53">Optimisation</text>
+<text x="340" y="516" text-anchor="middle" font-size="12" fill="#0C447C">Search-space sweep</text>
+<text x="340" y="533" text-anchor="middle" font-size="12" fill="#0C447C">rank by NPC</text>
+<text x="340" y="550" text-anchor="middle" font-size="12" fill="#0C447C">sensitivity sweep</text>
+<rect x="443" y="474" width="179" height="104" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.7"/>
+<text x="533" y="498" text-anchor="middle" font-size="14" font-weight="bold" fill="#042C53">8 KPIs</text>
+<text x="533" y="516" text-anchor="middle" font-size="12" fill="#0C447C">LCOE, NPC, LPSP, CO2</text>
+<text x="533" y="533" text-anchor="middle" font-size="12" fill="#0C447C">CF, SSR, excess, payback</text>
+<text x="533" y="550" text-anchor="middle" font-size="12" fill="#0C447C">optimal sizes → Step 4</text>
+<line x1="340" y1="596" x2="340" y2="620" stroke="#444" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="40" y="636" font-size="13" fill="#854F0B" font-weight="bold">Step 4. Dynamic validation (MATLAB/Simulink - power-level model + frequency/droop, 50 Hz, 11 kV)</text>
+<rect x="40" y="644" width="600" height="162" rx="10" fill="#FDF0DD" stroke="#854F0B" stroke-width="0.7"/>
+<text x="340" y="664" text-anchor="middle" font-size="12.5" font-style="italic" fill="#633806">Optimal sizes from HOMER injected into the model (irak_params.m); validate 1-2 representative scenarios</text>
+<rect x="58" y="678" width="179" height="86" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.7"/>
+<text x="147" y="702" text-anchor="middle" font-size="14" font-weight="bold" fill="#412402">Islanding &amp; reconnection</text>
+<text x="147" y="720" text-anchor="middle" font-size="12" fill="#633806">grid loss → grid-forming</text>
+<text x="147" y="737" text-anchor="middle" font-size="12" fill="#633806">frequency stays stable</text>
+<rect x="251" y="678" width="179" height="86" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.7"/>
+<text x="340" y="702" text-anchor="middle" font-size="14" font-weight="bold" fill="#412402">Daily dispatch (24 h)</text>
+<text x="340" y="720" text-anchor="middle" font-size="12" fill="#633806">PV / load / SoC / diesel</text>
+<text x="340" y="737" text-anchor="middle" font-size="12" fill="#633806">energy balance check</text>
+<rect x="443" y="678" width="179" height="86" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.7"/>
+<text x="533" y="702" text-anchor="middle" font-size="14" font-weight="bold" fill="#412402">Solar curtailment</text>
+<text x="533" y="720" text-anchor="middle" font-size="12" fill="#633806">battery full → PV capped</text>
+<text x="533" y="737" text-anchor="middle" font-size="12" fill="#633806">curtailed power tracked</text>
+<text x="340" y="792" text-anchor="middle" font-size="12" font-style="italic" fill="#993C1D">Stability / unmet-load &amp; SoC constraints fed back to HOMER if a sizing fails</text>
+<path d="M648 700 C 672 700 672 540 650 522" fill="none" stroke="#993C1D" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#arrowfb)"/>
+<text x="676" y="615" text-anchor="middle" font-size="10.5" fill="#993C1D" transform="rotate(90 676 615)">feedback if infeasible</text>
+<line x1="340" y1="806" x2="340" y2="830" stroke="#444" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="40" y="846" font-size="13" fill="#1F6F6F" font-weight="bold">Step 5. Comparison and sensitivity analysis</text>
+<rect x="40" y="854" width="600" height="118" rx="10" fill="#E2F1F1" stroke="#1F6F6F" stroke-width="0.7"/>
+<rect x="58" y="872" width="179" height="82" rx="8" fill="#A9D9D9" stroke="#1F6F6F" stroke-width="0.7"/>
+<text x="147" y="896" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C3A3A">4 by 8 table</text>
+<text x="147" y="914" text-anchor="middle" font-size="12" fill="#0C3A3A">scenarios vs KPIs</text>
+<rect x="251" y="872" width="179" height="82" rx="8" fill="#A9D9D9" stroke="#1F6F6F" stroke-width="0.7"/>
+<text x="340" y="896" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C3A3A">Radar plot</text>
+<text x="340" y="914" text-anchor="middle" font-size="12" fill="#0C3A3A">normalised KPIs</text>
+<rect x="443" y="872" width="179" height="82" rx="8" fill="#A9D9D9" stroke="#1F6F6F" stroke-width="0.7"/>
+<text x="533" y="896" text-anchor="middle" font-size="14" font-weight="bold" fill="#0C3A3A">Tornado plot</text>
+<text x="533" y="914" text-anchor="middle" font-size="12" fill="#0C3A3A">±20% sensitivity</text>
+<text x="340" y="996" text-anchor="middle" font-size="12.5" fill="#333">Tools:  Python (1, 2, 5)   |   HOMER Pro (3)   |   MATLAB/Simulink (4)</text>
+</svg>
